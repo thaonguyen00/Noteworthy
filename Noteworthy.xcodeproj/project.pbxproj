@@ -14,6 +14,7 @@
 		DC1A428B236E712D008D5C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1A4289236E712D008D5C9E /* Main.storyboard */; };
 		DC1A4297236E712D008D5C9E /* NoteworthyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1A4296236E712D008D5C9E /* NoteworthyTests.swift */; };
 		DC1A42A2236E712D008D5C9E /* NoteworthyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1A42A1236E712D008D5C9E /* NoteworthyUITests.swift */; };
+		DC1A42ED236E7280008D5C9E /* SharedClassEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1A42EC236E7280008D5C9E /* SharedClassEx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		DC1A429D236E712D008D5C9E /* NoteworthyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteworthyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1A42A1236E712D008D5C9E /* NoteworthyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteworthyUITests.swift; sourceTree = "<group>"; };
 		DC1A42A3236E712D008D5C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1A42EC236E7280008D5C9E /* SharedClassEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SharedClassEx.swift; path = ../HelloWorld/HelloWorld/SharedClassEx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		DC1A4274236E712C008D5C9E = {
 			isa = PBXGroup;
 			children = (
+				DC1A42EC236E7280008D5C9E /* SharedClassEx.swift */,
 				DC1A427F236E712C008D5C9E /* Noteworthy */,
 				DC1A4295236E712D008D5C9E /* NoteworthyTests */,
 				DC1A42A0236E712D008D5C9E /* NoteworthyUITests */,
@@ -268,6 +271,7 @@
 			files = (
 				DC1A4283236E712C008D5C9E /* ContentView.swift in Sources */,
 				DC1A4281236E712C008D5C9E /* AppDelegate.swift in Sources */,
+				DC1A42ED236E7280008D5C9E /* SharedClassEx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
