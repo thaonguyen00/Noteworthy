@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-01-22T01:12:35.829Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" version="14.2.6" etag="I0I3kiuZBKusYrfOjYX-" type="github"><diagram id="WbmCor6AZnzEXBU8xY_J">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-22T05:20:52.767Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="oJxA47Lji24jsmzeO_g4" version="14.2.6" type="github">
+  <diagram id="WbmCor6AZnzEXBU8xY_J" name="Page-1">
+    <mxGraphModel dx="690" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WPvl9ovtyJrEsYNvlWqR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WPvl9ovtyJrEsYNvlWqR-12" target="WPvl9ovtyJrEsYNvlWqR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WPvl9ovtyJrEsYNvlWqR-12" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WPvl9ovtyJrEsYNvlWqR-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WPvl9ovtyJrEsYNvlWqR-1" target="WPvl9ovtyJrEsYNvlWqR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WPvl9ovtyJrEsYNvlWqR-1" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.globe;" vertex="1" parent="1">
+          <mxGeometry x="115" y="170" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WPvl9ovtyJrEsYNvlWqR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WPvl9ovtyJrEsYNvlWqR-2" target="WPvl9ovtyJrEsYNvlWqR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WPvl9ovtyJrEsYNvlWqR-2" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WPvl9ovtyJrEsYNvlWqR-3" value="Web&amp;nbsp;&lt;br&gt;(curl, wget, selenium)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="130" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WPvl9ovtyJrEsYNvlWqR-4" value="home/data &lt;br&gt;folder" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WPvl9ovtyJrEsYNvlWqR-5" value="Oracle DB" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;shadow=0;dashed=0;verticalAlign=top;strokeColor=#0080F0;strokeWidth=2;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="600" y="230" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WPvl9ovtyJrEsYNvlWqR-8" value="cron jobs&lt;br&gt;+ bash/py scripts&lt;br&gt;+ pentaho" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WPvl9ovtyJrEsYNvlWqR-17" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;ETL Overview&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="60" width="170" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
